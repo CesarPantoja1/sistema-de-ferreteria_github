@@ -1,0 +1,50 @@
+{
+  "specs": [
+    {
+      "id": "7635af18-0620-44ef-9d1d-1e3c52418da7",
+      "name": "Catálogo de Productos y Configuración de Rubro",
+      "position": 0,
+      "dependencies": [],
+      "implemented": false
+    },
+    {
+      "id": "2d9cdaf7-dc18-414e-9908-6740fed89f6a",
+      "name": "Control de Existencias y Movimientos",
+      "position": 1,
+      "dependencies": [
+        "7635af18-0620-44ef-9d1d-1e3c52418da7"
+      ],
+      "implemented": false
+    },
+    {
+      "id": "6d90168d-07f6-4a54-908f-c3d4657cdfff",
+      "name": "Alertas de Stock Mínimo y Reposición",
+      "position": 2,
+      "dependencies": [
+        "7635af18-0620-44ef-9d1d-1e3c52418da7",
+        "2d9cdaf7-dc18-414e-9908-6740fed89f6a"
+      ],
+      "implemented": false
+    },
+    {
+      "id": "0406aa81-97b8-48c0-a5f5-6b713336a761",
+      "name": "Búsqueda y Consulta Rápida",
+      "position": 3,
+      "dependencies": [
+        "7635af18-0620-44ef-9d1d-1e3c52418da7",
+        "2d9cdaf7-dc18-414e-9908-6740fed89f6a"
+      ],
+      "implemented": false
+    },
+    {
+      "id": "5e04fe26-f883-4d2f-9a03-e945b86e7560",
+      "name": "Reportes de Inventario y Rotación",
+      "position": 4,
+      "dependencies": [
+        "7635af18-0620-44ef-9d1d-1e3c52418da7",
+        "2d9cdaf7-dc18-414e-9908-6740fed89f6a"
+      ],
+      "implemented": false
+    }
+  ]
+}

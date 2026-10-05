@@ -1,0 +1,17 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.env
+.git/
+opencode.json
+.run.pid
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+*.db
+*.sqlite
+*.sqlite3
+.opencode/
